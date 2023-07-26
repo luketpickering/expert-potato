@@ -1,0 +1,14 @@
+/gps/particle mu-
+
+#/gps/ene/type Lin
+#/gps/ene/gradient 0
+#/gps/ene/intercept 1
+
+/gps/ene/type Exp
+/gps/ene/ezero 50 MeV
+
+/gps/ene/min 0 MeV
+/gps/ene/max 10000 MeV
+
+/gps/position 0.0 0.0 0.0 cm
+/gps/direction 0 0 1
