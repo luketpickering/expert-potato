@@ -5,7 +5,7 @@
 #/gps/ene/intercept 1
 
 /gps/ene/type Exp
-/gps/ene/ezero 50 MeV
+/gps/ene/ezero 25 MeV
 
 /gps/ene/min 0 MeV
 /gps/ene/max 10000 MeV

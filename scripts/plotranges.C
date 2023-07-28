@@ -6,7 +6,7 @@ void plotranges() {
   TGraph arbox_pip("output/pip/pip_stop.dat");
   TGraph arbox_pim("output/pim/pim_stop.dat");
 
-  TCanvas c1("c1", "");
+  TCanvas c1("c1", "", 1200,1000);
   c1.SetLogx();
   c1.SetLogy();
 
@@ -33,5 +33,5 @@ void plotranges() {
 
   c1.BuildLegend();
 
-  c1.Print("PSTAR.pdf");
+  c1.Print("PSTAR.png");
 }
